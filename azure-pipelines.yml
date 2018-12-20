@@ -5,7 +5,9 @@ pool:
   vmImage: 'Ubuntu 16.04'
   
 variables:
-  buildConfiguration: 'Release'
+  buildConfiguration: 'Release',
+  dockerId:'containerregistrykk'
+  dokcerPassword:'qU3OjXaeoKThUopV9jt6x5j/WmnVKlyl'
 
 steps:
 - script: |
